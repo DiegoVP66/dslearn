@@ -23,3 +23,7 @@ INSERT INTO tb_offer (edition, start_moment, end_moment, course_id) VALUES ('2.0
 INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Trilha HTML', 'Trilha principal', 1, 'https://commons.wikimedia.org/wiki/File:Switch-course-book-grey.svg', 1, 1);
 INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Forum', 'Tire suas dúvidas', 2, 'https://commons.wikimedia.org/wiki/File:Switch-course-book-grey.svg', 2, 1);
 INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Lives', 'Lives exclusivas', 3, 'https://commons.wikimedia.org/wiki/File:Switch-course-book-grey.svg', 0, 1);
+
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 1', 'Tags 1', 1, 'https://commons.wikimedia.org/wiki/File:Switch-course-book-grey.svg', 1, null);
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 2', 'Tags 2', 2, 'https://commons.wikimedia.org/wiki/File:Switch-course-book-grey.svg', 1, 1);
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 3', 'Tags 3', 3, 'https://commons.wikimedia.org/wiki/File:Switch-course-book-grey.svg', 1, 2);
